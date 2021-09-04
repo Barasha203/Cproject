@@ -2,10 +2,9 @@
 
 int main()
 {
-    int a,b,c;
+    int a,b;
     printf("enter the two numbers:");
     scanf("%d%d",&a,&b);
-    c=a+b;
-    printf("c=%d+%d=%d",a,b,c);
+    printf("%d+%d=%d",a,b, a+b);
     return 0;
 }
