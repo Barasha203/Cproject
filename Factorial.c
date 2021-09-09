@@ -6,8 +6,6 @@ int main()
     printf("\nEnter a no....");
     scanf("%d", &input);
 
-
-
     for (int i = 1; i <= input; i++)
     {
         result = result * i;
